@@ -39,4 +39,6 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = "random"
+  # addding the Capybara DSL (domain-specific language - ngon ngu mien cu the)
+  config.include Capybara::DSL 
 end
